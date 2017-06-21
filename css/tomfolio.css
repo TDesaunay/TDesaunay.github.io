@@ -1,0 +1,333 @@
+body {
+  font-family: 'Overlock', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  overflow-x: hidden;
+}
+
+/*SECTION DESIGN*/
+
+#custom-section-title{ 
+    display: block;
+    font-family: "Chau Philomene One", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 2.5em;
+    text-align:center;
+    padding: 0px 50px 0px 50px;
+}
+
+/*CAREER DESIGN*/
+
+#custom-title {
+  font-family: "Chau Philomene One", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1.50em;
+   
+}
+
+#custom-panel-collapse {
+    
+    border-top: 0px transparent;
+}
+
+#custom-panel-body {
+    
+  border-top: 0px transparent;
+
+}
+
+.panel.panel-custom {    
+    
+    -webkit-box-shadow: 0 0px 0px rgba(0,0,0,0);
+}
+
+
+/*SKIPNAV DESIGN*/
+
+#skipnav a {
+  padding: 6px;
+  position: absolute;
+  top: -40px;
+  left: 0px;
+  color: white;
+  border-right: 1px solid white;
+  border-bottom: 1px solid white;
+  border-bottom-right-radius: 8px;
+  background: transparent;
+  transition: top 1s ease-out, background 1s linear;
+  z-index: 2000;
+}
+#skipnav a:focus {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  background: #18BC9C;
+  outline: 0;
+  transition: top 0.1s ease-in, background 0.5s linear;
+}
+div#maincontent {
+  outline: none;
+}
+
+/*SCROLL DESIGN*/
+
+.scroll-top {
+  position: fixed;
+  right: 2%;
+  bottom: 2%;
+  width: 50px;  
+  height: 50px;
+  z-index: 1049;
+}
+.scroll-top .btn {
+  font-size: 20px;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  line-height: 28px;
+}
+
+
+/* SPACE CAREER DESIGN */
+
+
+
+hr.space-career {
+margin: 25px 0 25 0;
+border-top:0px;
+}
+
+hr.space-career:after {
+      content: "\f106";
+  font-family: FontAwesome;
+  display: inline-block;
+  position: relative;
+  top: -0.8em;
+  font-size: 2.5em;
+  padding: 0 0.25em;
+    color: 27231c;
+    
+}
+
+/* STAR DESIGN */
+
+
+hr.star-light,
+hr.star-primary {
+  padding: 0;
+  border: none;
+  border-top: solid 5px;
+  text-align: center;
+  max-width: 250px;
+  margin: 25px auto 30px;
+}
+hr.star-light:after,
+hr.star-primary:after {
+  content: "\f007";
+  font-family: FontAwesome;
+  display: inline-block;
+  position: relative;
+  top: -0.8em;
+  font-size: 2em;
+  padding: 0 0.25em;
+}
+hr.star-light {
+  border-color: white;
+}
+hr.star-light:after {
+  background-color: #27231c;
+  color: white;
+}
+hr.star-primary {
+  border-color: #2C3E50;
+}
+hr.star-primary:after {
+  background-color: white;
+  color: #2C3E50;
+}
+
+hr.star-primary.port:after {
+  content: "\f042";
+}
+
+hr.star-light.port {
+  border-color: #27231c;
+}
+
+/*HEADER DESIGN*/
+
+
+header {
+  text-align: center;
+  background: #27231c;
+  color: white;
+}
+header .container {
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+header img {
+  display: block;
+  margin: 0 auto 20px;
+}
+
+header .intro-text .name {
+  display: block;
+  font-family: "Chau Philomene One", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 1.5em;
+}
+header .intro-text .skills {
+  font-size: 1.25em;
+  font-weight: 300;
+}
+
+@media (min-width: 768px) {
+  header .container {
+    padding-top: 200px;
+    padding-bottom: 100px;
+  }
+  header .intro-text .name {
+    font-size: 4.75em;
+  }
+  header .intro-text .skills {
+    font-size: 1.75em;
+  }
+}
+
+/*NAV DESIGN*/
+
+.navbar-custom {
+  background: #181612;
+  font-family: "Chau Philomene One", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+font-size: 1.25em;
+  border: none;
+}
+
+/*
+.navbar-custom .navbar-brand {
+  color: #fbefdb;
+}
+.navbar-custom .navbar-brand:hover,
+.navbar-custom .navbar-brand:focus,
+.navbar-custom .navbar-brand:active,
+.navbar-custom .navbar-brand.active {
+  color: #fbefdb;
+}*/
+
+.logo {
+      content: url("../img/logo.png");
+}
+
+.logo:hover,
+.logo:focus,
+.logo:active{
+      content: url("../img/logo2.png");
+}
+
+.navbar-custom .navbar-nav {
+  letter-spacing: 1px;
+}
+.navbar-custom .navbar-nav li a {
+  color: #fbefdb;
+}
+.navbar-custom .navbar-nav li a:hover {
+  color: #18BC9C;
+}
+.navbar-custom .navbar-nav li a:focus,
+.navbar-custom .navbar-nav li a:active {
+  color: white;
+}
+.navbar-custom .navbar-nav li.active a {
+  color: white;
+  background: #18BC9C;
+}
+.navbar-custom .navbar-nav li.active a:hover,
+.navbar-custom .navbar-nav li.active a:focus,
+.navbar-custom .navbar-nav li.active a:active {
+  color: white;
+  background: #18BC9C;
+}
+.navbar-custom .navbar-toggle {
+  color: white;
+  text-transform: uppercase;
+  font-size: 10px;
+  border-color: white;
+}
+.navbar-custom .navbar-toggle:hover,
+.navbar-custom .navbar-toggle:focus {
+  background-color: #18BC9C;
+  color: white;
+  border-color: #18BC9C;
+}
+@media (min-width: 768px) {
+  .navbar-custom {
+    padding: 25px 0;
+    -webkit-transition: padding 0.3s;
+    -moz-transition: padding 0.3s;
+    transition: padding 0.3s;
+  }
+  .navbar-custom .navbar-brand {
+    font-size: 2em;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+  .navbar-custom.affix {
+    padding: 10px 0;
+  }
+  .navbar-custom.affix .navbar-brand {
+    font-size: 1.5em;
+  }
+}
+
+/* BUTTON & CO DESIGN*/
+
+.btn-outline {
+  color: #fbefdb;
+  font-size: 14px;
+  border: solid 2px #fbefdb;
+  background: transparent;
+  transition: all 0.3s ease-in-out;
+  margin: 5px;
+}
+.btn-outline:hover,
+.btn-outline:focus,
+.btn-outline:active,
+.btn-outline.active {
+  color: #181612;
+  background: white;
+  border: solid 2px white;
+}
+
+.dropdown-menu{
+    color: #fbefdb;
+  background:  #181612;
+    text-align: center;
+    width: auto;
+}
+
+.dropdown-menu li a:hover{
+    color: #181612;    
+}
+
+/*FOOTER DESIGN*/
+footer {
+  color: white;
+}
+footer h3 {
+  margin-bottom: 30px;
+}
+footer .footer-above {
+  padding-top: 50px;
+  background-color: #27231c;
+}
+footer .footer-col {
+  margin-bottom: 50px;
+}
+footer .footer-below {
+  padding: 25px 0;
+  background-color: #181612;
+}
