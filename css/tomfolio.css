@@ -3,6 +3,12 @@ body {
   overflow-x: hidden;
 }
 
+.img-responsive logo {
+    
+    padding-bottom: 10px;
+    padding-top: : 10px;
+}
+
 /*SECTION DESIGN*/
 
 #custom-section-title{ 
