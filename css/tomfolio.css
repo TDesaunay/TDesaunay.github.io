@@ -1,20 +1,60 @@
 body {
   font-family: 'Overlock', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   overflow-x: hidden;
+    font-weight: 400;
+     font-size: 1.85em;
 }
 
-.img-responsive logo {
+
+#career {
     
-    padding-bottom: 10px;
-    padding-top: : 10px;
+     background: #888888;
+      padding: 30px 0px 30px 0px;
+    
+    
 }
+
+#portfolio {
+    
+     background: #222222; 
+       padding: 30px 0px 30px 0px;
+    color:white;
+    
+}
+
+#skill {
+    
+     background: #888888; 
+     padding: 30px 0px 30px 0px;
+     color:#1a1a1a;
+    
+}
+
+#info {
+     background: #222222; 
+      padding: 30px 0px 30px 0px;
+     color:white;
+}
+
 
 /*SECTION DESIGN*/
 
-#custom-section-title{ 
+#custom-section-title-light{ 
     display: block;
     font-family: "Chau Philomene One", "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
+     color: #1a1a1a;
+    font-weight: 500;
+    font-size: 2.5em;
+    text-align:center;
+    padding: 0px 50px 0px 50px;
+}
+
+#custom-section-title-dark{ 
+    display: block;
+    font-family: "Chau Philomene One", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    color: white;
     font-weight: 500;
     font-size: 2.5em;
     text-align:center;
@@ -27,31 +67,32 @@ body {
 #custom-title {
   font-family: "Chau Philomene One", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 1.50em;
-    color: #fbefdb;
+    color: white;
 }
 
 #custom-link {
  text-decoration: none;
-      background: #181612; 
+      background: #222222;
+   
 }
 
 #custom-panel-collapse {
     
-    border-top: 0px transparent;
+    border: 0px transparent;
 }
 
 #custom-panel-body {
     
-  border-top: 0px transparent;
-    background: #27231c;
-    color:white;
+  border: 0px transparent;
+    background: white;
+    color:#1a1a1a;
 
 }
 
 .panel.panel-custom {    
     
     -webkit-box-shadow: 0 0px 0px rgba(0,0,0,0);
-
+ border: 0px transparent;
 }
 
 
@@ -172,7 +213,7 @@ hr.star-light.port {
 
 header {
   text-align: center;
-  background: #27231c;
+  background: #222222;
   color: white;
 }
 header .container {
@@ -213,7 +254,7 @@ header .intro-text .skills {
 /*NAV DESIGN*/
 
 .navbar-custom {
-  background: #181612;
+  background: #1a1a1a;
   font-family: "Chau Philomene One", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
@@ -246,10 +287,10 @@ font-size: 1.25em;
   letter-spacing: 1px;
 }
 .navbar-custom .navbar-nav li a {
-  color: #fbefdb;
+  color: white;
 }
 .navbar-custom .navbar-nav li a:hover {
-  color: #18BC9C;
+  color: white;
 }
 .navbar-custom .navbar-nav li a:focus,
 .navbar-custom .navbar-nav li a:active {
@@ -257,13 +298,13 @@ font-size: 1.25em;
 }
 .navbar-custom .navbar-nav li.active a {
   color: white;
-  background: #18BC9C;
+  background: #888888;
 }
 .navbar-custom .navbar-nav li.active a:hover,
 .navbar-custom .navbar-nav li.active a:focus,
 .navbar-custom .navbar-nav li.active a:active {
   color: white;
-  background: #18BC9C;
+  background: #888888;
 }
 .navbar-custom .navbar-toggle {
   color: white;
@@ -301,9 +342,9 @@ font-size: 1.25em;
 /* BUTTON & CO DESIGN*/
 
 .btn-outline {
-  color: #fbefdb;
+  color: white;
   font-size: 14px;
-  border: solid 2px #fbefdb;
+  border: solid 2px white;
   background: transparent;
   transition: all 0.3s ease-in-out;
   margin: 5px;
@@ -332,17 +373,8 @@ font-size: 1.25em;
 footer {
   color: white;
 }
-footer h3 {
-  margin-bottom: 30px;
-}
-footer .footer-above {
-  padding-top: 50px;
-  background-color: #27231c;
-}
-footer .footer-col {
-  margin-bottom: 50px;
-}
 footer .footer-below {
   padding: 25px 0;
-  background-color: #181612;
+  background-color: #1a1a1a;
+    text-align: center;
 }
