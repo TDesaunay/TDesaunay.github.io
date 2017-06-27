@@ -70,10 +70,20 @@ body {
     color: white;
 }
 
+
 #custom-link {
  text-decoration: none;
       background: #222222;
    
+}
+
+#custom-link:hover  {
+      background: #ffffff;
+}
+
+#custom-link:hover * {
+      background: #ffffff;
+    color:#1a1a1a;
 }
 
 #custom-panel-collapse {
@@ -88,6 +98,7 @@ body {
     color:#1a1a1a;
 
 }
+
 
 .panel.panel-custom {    
     
