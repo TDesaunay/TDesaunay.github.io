@@ -10,7 +10,7 @@ body {
     
      background: #888888;
       padding: 30px 0px 30px 0px;
-    
+     height:100vh;
     
 }
 
@@ -19,7 +19,6 @@ body {
      background: #222222; 
        padding: 30px 0px 30px 0px;
     color:white;
-    
 }
 
 #skill {
@@ -244,6 +243,7 @@ body {
 }
 div#maincontent {
   outline: none;
+    
 }
 
 /*SCROLL DESIGN*/
@@ -338,6 +338,7 @@ header {
   text-align: center;
   background: #222222;
   color: white;
+    height:100vh;
 }
 header .container {
   padding-top: 100px;
@@ -353,7 +354,7 @@ header .intro-text .name {
   display: block;
   font-family: "Chau Philomene One", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
-  font-weight: 500;
+  font-weight: 300;
   font-size: 1.5em;
 }
 header .intro-text .skills {
