@@ -76,13 +76,23 @@ body {
 }
 
 #custom-link:hover  {
-      background: #ffffff;
+      background: #d1d1d1;
 }
 
 #custom-link:hover * {
-      background: #ffffff;
+      background: #d1d1d1;
     color:#1a1a1a;
 }
+
+#custom-link:active  {
+      background: #fff;
+}
+
+#custom-link:active * {
+      background: #fff;
+  color:#3fc4ff;
+}
+
 
 #custom-panel-collapse {
     
@@ -299,7 +309,7 @@ hr.star-primary {
 }
 hr.star-light:after,
 hr.star-primary:after {
-  content: "\f007";
+  content: "\f005";
   font-family: FontAwesome;
   display: inline-block;
   position: relative;
@@ -311,7 +321,7 @@ hr.star-light {
   border-color: white;
 }
 hr.star-light:after {
-  background-color: #27231c;
+  background-color: #222222;
   color: white;
 }
 hr.star-primary {
@@ -353,24 +363,32 @@ header .intro-text .name {
   display: block;
   font-family: "Chau Philomene One", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
-  font-weight: 300;
-  font-size: 1.5em;
+     font-size: 3.75em;
 }
-header .intro-text .skills {
-  font-size: 1.25em;
-  font-weight: 300;
-}
+
+header .intro-text .slimshady {
+    font-size: 1.75em;
+  }
+    
+  header .intro-text .moto {
+    font-size: 2.25em;
+  }
 
 @media (min-width: 768px) {
   header .container {
     padding-top: 200px;
     padding-bottom: 100px;
   }
-  header .intro-text .name {
-    font-size: 4.75em;
-  }
-  header .intro-text .skills {
+    
+header .intro-text .slimshady {
     font-size: 1.75em;
+  }
+  header .intro-text .name {
+    font-size: 3.75em;
+  }
+    
+  header .intro-text .moto {
+    font-size: 2.25em;
   }
 }
 
