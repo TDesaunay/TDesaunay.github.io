@@ -5,6 +5,13 @@ body {
      font-size: 1.85em;
 }
 
+#bword {
+    
+    font-family: "Chau Philomene One", "Helvetica Neue", Helvetica, Arial, sans-serif;
+       font-weight: 300;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
 
 #career {
     
@@ -227,6 +234,16 @@ body {
   display: none;
 }
 
+
+/*A BIT MORE DESIGN*/
+
+#outro-text {
+    
+    font-size: 1.75em;
+    text-align: center;
+    
+}
+
 /*SKIPNAV DESIGN*/
 
 #skipnav a {
@@ -347,7 +364,6 @@ header {
   text-align: center;
   background: #222222;
   color: white;
-    height:100vh;
 }
 header .container {
   padding-top: 100px;
@@ -374,9 +390,14 @@ header .intro-text .slimshady {
     font-size: 2.25em;
   }
 
+#intro-p {
+     text-align: justify;
+    text-justify: inter-word;
+    
+}
 @media (min-width: 768px) {
   header .container {
-    padding-top: 200px;
+    padding-top: 150px;
     padding-bottom: 100px;
   }
     
@@ -399,7 +420,7 @@ header .intro-text .slimshady {
   font-family: "Chau Philomene One", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
-font-size: 1.25em;
+    font-size: 1.55em;
   border: none;
 }
 
@@ -445,11 +466,11 @@ font-size: 1.25em;
 
 
 .navbar-custom .navbar-nav {
-  letter-spacing: 1px;
+  letter-spacing: 2px;
 }
 .navbar-custom .navbar-nav li a {
   color: white;
-            text-align: center;
+    text-align: center;
 }
 .navbar-custom .navbar-nav li a:hover {
   color: white;
