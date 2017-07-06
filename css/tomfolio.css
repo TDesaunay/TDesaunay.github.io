@@ -13,12 +13,22 @@ body {
     text-transform: uppercase;
 }
 
+#mail {
+    
+    font-family: "Chau Philomene One", "Helvetica Neue", Helvetica, Arial, sans-serif;
+       font-weight: 300;
+    letter-spacing: 1px;
+
+}
+
 #career {
     
      background: #888888;
       padding: 30px 0px 30px 0px;
     
 }
+
+
 
 #portfolio {
     
@@ -243,6 +253,37 @@ body {
     text-align: center;
     
 }
+
+#areaCV {
+    
+     padding: 60px 0px 75px 0px;
+}
+
+.btn-CV {
+  color: white;
+    font-family: "Chau Philomene One", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 24px;
+  border: solid 2px white;
+  background: transparent;
+  transition: all 0.3s ease-in-out;
+  margin: 50px;
+padding-top: 15px;
+padding-bottom: 15px;
+padding-left: 30px;
+padding-right: 30px;
+text-decoration: none;
+  border-radius: 15px;
+}
+.btn-CV:hover,
+.btn-CV:focus,
+.btn-CV:active,
+.btn-CV.active {
+  color: #181612;
+  background: white;
+  border: solid 2px white;
+     text-decoration: none;
+}
+
 
 /*SKIPNAV DESIGN*/
 
@@ -530,11 +571,14 @@ header .intro-text .slimshady {
 
 .btn-outline {
   color: white;
-  font-size: 14px;
+    font-family: "Chau Philomene One", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 24px;
   border: solid 2px white;
   background: transparent;
   transition: all 0.3s ease-in-out;
   margin: 5px;
+padding: 10px;
+    
 }
 .btn-outline:hover,
 .btn-outline:focus,
