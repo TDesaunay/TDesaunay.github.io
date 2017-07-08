@@ -432,8 +432,8 @@ header .intro-text .slimshady {
   }
 
 #intro-p {
-     text-align: justify;
-    text-justify: inter-word;
+     text-align: center;
+    font-size: 1.25em;
     
 }
 @media (min-width: 768px) {
