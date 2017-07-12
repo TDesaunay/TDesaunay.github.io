@@ -245,6 +245,18 @@ body {
 }
 
 
+/*SKILLS*/
+
+#title-skill {
+    
+    font-family: "Chau Philomene One", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    letter-spacing: 1px;
+    font-size: 1.75em;
+    text-transform: uppercase;
+}
+
+
 /*A BIT MORE DESIGN*/
 
 #outro-text {
@@ -397,6 +409,23 @@ hr.star-primary.port:after {
 hr.star-light.port {
   border-color: #27231c;
 }
+
+
+/*LOGO SKILLS DESIGN*/
+
+hr.star-light.skills {
+  border-color: #222222;
+}
+
+hr.star-light.skills:after {
+  background-color: #888888;
+  color: #222222;
+}
+
+hr.star-light.skills.design:after {
+    content:"\f040";
+}
+
 
 /*HEADER DESIGN*/
 
