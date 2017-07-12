@@ -89,20 +89,24 @@ body {
 #custom-link {
  text-decoration: none;
       background: #222222;
+    border-radius: 15px;
    
 }
 
 #custom-link:hover  {
       background: #d1d1d1;
+     
 }
 
 #custom-link:hover * {
       background: #d1d1d1;
     color:#1a1a1a;
+   
 }
 
 #custom-link:active  {
       background: #fff;
+   
 }
 
 #custom-link:active * {
@@ -114,13 +118,14 @@ body {
 #custom-panel-collapse {
     
     border: 0px transparent;
+       
 }
 
 #custom-panel-body {
     
   border: 0px transparent;
     background: white;
-    color:#1a1a1a;
+    color:#1a1a1a;  
 
 }
 
@@ -129,6 +134,7 @@ body {
     
     -webkit-box-shadow: 0 0px 0px rgba(0,0,0,0);
  border: 0px transparent;
+    border-radius: 15px;
 }
 
 /* PORTFOLIO DESIGN */
@@ -254,6 +260,12 @@ body {
     letter-spacing: 1px;
     font-size: 1.75em;
     text-transform: uppercase;
+}
+
+#skills-text {
+    
+    text-align: center;
+    
 }
 
 
