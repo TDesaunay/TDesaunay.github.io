@@ -126,6 +126,7 @@ body {
   border: 0px transparent;
     background: white;
     color:#1a1a1a;  
+    border-radius: 15px;
 
 }
 
@@ -452,6 +453,38 @@ hr.star-light.skills.design:after {
 
 hr.star-light.skills.design.port:after {
     content:"\f040";
+}
+
+hr.star-light.skills.team:after {
+    content:"\f0c0";
+}
+
+hr.star-light.skills.team.port:after {
+    content:"\f0c0";
+}
+
+hr.star-light.skills.dev:after {
+   content:"\f013";
+}
+
+hr.star-light.skills.dev.port:after {
+content:"\f013";
+}
+
+hr.star-light.skills.soft:after {
+    content:"\f040";
+}
+
+hr.star-light.skills.soft.port:after {
+    content:"\f040";
+}
+
+hr.star-light.skills.hobby:after {
+ content:"\f004";
+}
+
+hr.star-light.skills.hobby.port:after {
+ content:"\f004";
 }
 
 
