@@ -159,6 +159,8 @@ body {
   transition: all ease 0.5s;
   -webkit-transition: all ease 0.5s;
   -moz-transition: all ease 0.5s;
+
+
 }
 #portfolio .portfolio-item .portfolio-link .caption:hover {
   opacity: 1;
@@ -172,13 +174,18 @@ body {
   top: 50%;
   margin-top: -12px;
   color: white;
+   
+   
+
 }
 #portfolio .portfolio-item .portfolio-link .caption .caption-content i {
   margin-top: -12px;
 }
 #portfolio .portfolio-item .portfolio-link .caption .caption-content h3,
 #portfolio .portfolio-item .portfolio-link .caption .caption-content h4 {
-  margin: 0;
+    margin: 0;
+     font-family: "Chau Philomene One", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: #222;
 }
 #portfolio * {
   z-index: 2;
@@ -511,6 +518,7 @@ header .intro-text .name {
   font-family: "Chau Philomene One", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
      font-size: 3.75em;
+    
 }
 
 header .intro-text .slimshady {
