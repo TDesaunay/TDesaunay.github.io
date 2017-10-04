@@ -76,6 +76,15 @@ body {
     padding: 0px 30px 0px 30px;
 }
 
+@media (max-width: 767px) {
+  section {
+    padding: 75px 0;
+  }
+  section.first {
+    padding-top: 75px;
+  }
+}
+
 /*CAREER DESIGN*/
 
 
@@ -201,16 +210,20 @@ body {
 .portfolio-modal .modal-content {
   border-radius: 0;
   background-clip: border-box;
+    background-color: #222222;
   -webkit-box-shadow: none;
   box-shadow: none;
   border: none;
   min-height: 100%;
   padding: 100px 0;
   text-align: center;
+    color:white;
+
 }
 .portfolio-modal .modal-content h2 {
   margin: 0;
   font-size: 3em;
+     font-family: "Chau Philomene One", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .portfolio-modal .modal-content img {
   margin-bottom: 30px;
@@ -256,6 +269,16 @@ body {
 .portfolio-modal .modal-backdrop {
   opacity: 0;
   display: none;
+}
+
+.btn-default {
+    
+    color: white;
+    font-family: "Chau Philomene One", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+    background-color: #222;
+    
+    
 }
 
 
@@ -305,7 +328,6 @@ padding-left: 25px;
 padding-right: 25px;
 text-decoration: none;
   border-radius: 15px;
-    
     display: block;
   position: relative;
   max-width: 400px;
@@ -561,6 +583,7 @@ header .intro-text .slimshady {
   font-weight: 700;
     font-size: 1.55em;
   border: none;
+     width: 100%;
 }
 
 /*
@@ -574,23 +597,13 @@ header .intro-text .slimshady {
   color: #fbefdb;
 }*/
 
-.logo {
-      content: url("../img/logo.png");
-}
-
-.logo:hover,
-.logo:focus,
-.logo:active{
-      content: url("../img/logo2.png");
-}
-
-.nav navbar-nav navbar-right {
+/*.nav navbar-nav navbar-right {
     position: absolute;
     left: 0px;
     height: 40px;
     width: 100%;
     text-align: center;
-}
+}*/
 
 @media (min-width: 768px){
     
@@ -655,7 +668,6 @@ header .intro-text .slimshady {
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     transition: all 0.3s;
-             text-align: center;
   }
   .navbar-custom.affix {
     padding: 10px 0;
