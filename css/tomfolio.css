@@ -537,7 +537,7 @@ header {
   color: white;
 }
 header .container {
-  padding-top: 100px;
+  padding-top: 150px;
   padding-bottom: 50px;
 }
 
@@ -549,40 +549,49 @@ header img {
 header .intro-text .name {
   display: block;
   font-family: "Chau Philomene One", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  text-transform: uppercase;
-     font-size: 3.75em;
-    
+           text-transform: uppercase;
+    font-size: 2.50em;
 }
 
 header .intro-text .slimshady {
-    font-size: 1.75em;
+    font-size: 2.0em;
   }
     
   header .intro-text .moto {
-    font-size: 2.25em;
+      font-family: "Chau Philomene One", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+
+    font-size: 2.50em;
   }
 
 #intro-p {
      text-align: center;
-    font-size: 1.25em;
+    font-size: 1.55em;
     
 }
-@media (min-width: 768px) {
+
+@media (max-width: 768px) {
   header .container {
-    padding-top: 150px;
+    padding-top: 125px;
     padding-bottom: 100px;
   }
     
 header .intro-text .slimshady {
-    font-size: 1.75em;
+    font-size: 1.50em;
   }
   header .intro-text .name {
-    font-size: 3.75em;
+    font-size: 1.75em;
   }
     
   header .intro-text .moto {
-    font-size: 2.25em;
+    font-size: 1.75em;
   }
+    
+    #intro-p {
+     text-align: center;
+    font-size: 1.55em;
+    
+}
 }
 
 /*NAV DESIGN*/
@@ -594,7 +603,6 @@ header .intro-text .slimshady {
   font-weight: 300;
     font-size: 1.55em;
   border: none;
-    
     
 }
 
@@ -672,7 +680,7 @@ header .intro-text .slimshady {
     font-size: 1.5em;
   }
     
-      .navbar-collapse.collapse {
+.navbar-collapse.collapse {
     height: auto!important;
     overflow: visible!important;
     display: flex!important;
