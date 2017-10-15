@@ -1,765 +1,775 @@
-
-
 body {
-  font-family: 'Overlock', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  overflow-x: hidden;
-    font-weight: 400;
-     font-size: 1.85em;
-   
+        font-family: 'Overlock', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        font-weight: 400;
+        font-size: 1.85em; 
+        overflow-x: hidden;
 }
 
 #intro {
-    
-    overflow-x:hidden;
+        overflow-x:hidden;
 }
 
 
 #bword {
-    
-    font-family: "Chau Philomene One", "Helvetica Neue", Helvetica, Arial, sans-serif;
-       font-weight: 300;
-    letter-spacing: 1px;
-    text-transform: uppercase;
+        font-family: "Chau Philomene One", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-weight: 300;
+        letter-spacing: 1px;
+        text-transform: uppercase;
 }
 
 #mail {
-    
-    font-family: "Chau Philomene One", "Helvetica Neue", Helvetica, Arial, sans-serif;
-       font-weight: 300;
-    letter-spacing: 1px;
-
+        font-family: "Chau Philomene One", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-weight: 300;
+        letter-spacing: 1px;
 }
 
 
 #maincontent {
-  outline: no;
+        outline: no;
 }
 
+header {
+        color:#fffce2;
+        background: #26384C;
+        text-align: center;
+        /* background: #114653; /* For browsers that do not support gradients */
+        /* background: -webkit-linear-gradient(#114653, #272940); /* For Safari 5.1 to 6.0 */
+        /* background: -o-linear-gradient(#11465, #272940); /* For Opera 11.1 to 12.0 */
+        /* background: -moz-linear-gradient(#11465, #272940); /* For Firefox 3.6 to 15 */
+        /*background: linear-gradient(#11465, #272940 ); /* Standard syntax */
+}
 
 #career {
-    
-     background: #888888;
-      padding: 30px 0px 30px 0px;
+        background: #1e1f34;
+        padding: 30px 0px 30px 0px;
 }
 
-
-
 #portfolio {
-    
-     background: #222222; 
-       padding: 30px 0px 30px 0px;
-    color:white;
-         
+        color:white;
+        background: #26384C; 
+        padding: 30px 0px 30px 0px;
 }
 
 #skill {
-    
-     background: #888888; 
-     padding: 30px 0px 30px 0px;
-     color:#1a1a1a;
+        color:#1a1a1a;
+        background: #58aeab; 
+        padding: 30px 0px 30px 0px;
 }
 
 #info {
-     background: #222222; 
-      padding: 30px 0px 30px 0px;
-     color: white;
+        color: white;
+        background: #26384C; 
+        padding: 30px 0px 30px 0px;  
 }
 
 
 /*SECTION DESIGN*/
 
+
 #custom-section-title-light{ 
-    display: block;
-    font-family: "Chau Philomene One", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    text-transform: uppercase;
-     color: #1a1a1a;
-    font-weight: 500;
-    font-size: 2.5em;
-    text-align:center;
-    padding: 0px 30px 0px 30px;
+        display: block;
+        font-family: "Chau Philomene One", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        color: #1a1a1a;
+        font-weight: 500;
+        font-size: 2.5em;
+        text-align:center;
+        text-transform: uppercase;
+        padding: 0px 30px 0px 30px;
 }
 
 #custom-section-title-dark{ 
-    display: block;
-    font-family: "Chau Philomene One", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    text-transform: uppercase;
-    color: white;
-    font-weight: 500;
-    font-size: 2.5em;
-    text-align:center;
-    padding: 0px 30px 0px 30px;
+        display: block;
+        font-family: "Chau Philomene One", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        color: white;
+        font-weight: 500;
+        font-size: 2.5em;
+        text-transform: uppercase;
+        text-align:center;
+        padding: 0px 30px 0px 30px;
 }
 
 @media (max-width: 767px) {
-  section {
-    padding: 75px 0;
-  }
-  section.first {
-    padding-top: 75px;
-  }
+    section {
+            padding: 75px 0;
+    }
+    
+    section.first {
+            padding-top: 75px;
+    }
 }
+
 
 /*CAREER DESIGN*/
 
 
 #custom-title {
-  font-family: "Chau Philomene One", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 1.50em;
-    color: white;
+        font-family: "Chau Philomene One", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        color: white;
+        font-size: 1.50em;
 }
 
-
 #custom-link {
- text-decoration: none;
-      background: #222222;
-    border-radius: 15px;
-   
+        text-decoration: none;
+        background: #222222;
+        border-radius: 15px;
 }
 
 #custom-link:hover  {
-      background: #d1d1d1;
-     
+        background: #d1d1d1;
 }
 
 #custom-link:hover * {
-      background: #d1d1d1;
-    color:#1a1a1a;
-   
+        color:#1a1a1a;
+        background: #d1d1d1;
 }
 
 #custom-link:active  {
-      background: #fff;
-   
+        background: #fff;
 }
 
 #custom-link:active * {
-      background: #fff;
-  color:#3fc4ff;
+        color:#3fc4ff;
+        background: #fff;
 }
 
 
 #custom-panel-collapse {
-    
-    border: 0px transparent;
-       
+        border: 0px transparent;
 }
 
 #custom-panel-body {
-    
-  border: 0px transparent;
-    background: white;
-    color:#1a1a1a;  
-    border-radius: 15px;
-
+        color:#1a1a1a;  
+        background: white;
+        border: 0px transparent;
+        border-radius: 15px;
 }
 
 
 .panel.panel-custom {    
-    
-    -webkit-box-shadow: 0 0px 0px rgba(0,0,0,0);
- border: 0px transparent;
-    border-radius: 15px;
+        -webkit-box-shadow: 0 0px 0px rgba(0,0,0,0);
+        border: 0px transparent;
+        border-radius: 15px;
 }
+
 
 /* PORTFOLIO DESIGN */
 
+
 #portfolio .portfolio-item {
-  margin: 0 0 20px;
-  right: 0;
+        margin: 0 0 20px;
+        right: 0;
 }
+
 #portfolio .portfolio-item .portfolio-link {
-  display: block;
-  position: relative;
-  max-width: 400px;
-  margin: 0 auto;
+        display: block;
+        position: relative;
+        max-width: 400px;
+        margin: 0 auto;
 }
+
 #portfolio .portfolio-item .portfolio-link .caption {
-  /*background: rgba(24, 188, 156, 0.9);*/
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  opacity: 0;
-  transition: all ease 0.5s;
-  -webkit-transition: all ease 0.5s;
-  -moz-transition: all ease 0.5s;
-
-
+        /*background: rgba(24, 188, 156, 0.9);*/
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        opacity: 0;
+        transition: all ease 0.5s;
+        -webkit-transition: all ease 0.5s;
+        -moz-transition: all ease 0.5s;
 }
+
 #portfolio .portfolio-item .portfolio-link .caption:hover {
-  opacity: 1;
+        opacity: 1;
 }
-#portfolio .portfolio-item .portfolio-link .caption .caption-content {
-  position: absolute;
-  width: 100%;
-  height: 40px;
-  top: 50%;
-  margin-top: -22px;
-  color: white;
-    background-color: #222;
-}
-#portfolio .portfolio-item .portfolio-link .caption .caption-content i {
-  margin-top: -12px;
-    
 
+#portfolio .portfolio-item .portfolio-link .caption .caption-content {
+        color: white;
+        background-color: #58aeab;
+        position: absolute;
+        width: 100%;
+        height: 40px;
+        top: 50%;
+        margin-top: -22px;
 }
+
+#portfolio .portfolio-item .portfolio-link .caption .caption-content i {
+        margin-top: -12px;
+}
+
 #portfolio .portfolio-item .portfolio-link .caption .caption-content h3,
 #portfolio .portfolio-item .portfolio-link .caption .caption-content h4 {
-    font-family: "Chau Philomene One", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    margin: 0;
-     text-align:center;
-    padding-top: 7px;
+        font-family: "Chau Philomene One", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        text-align:center;
+        margin: 0;
+        padding-top: 7px;
 }
+
 #portfolio  {
-  z-index: 2;
+        z-index: 2;
 }
+
 @media (min-width: 768px) {
-  #portfolio .portfolio-item {
-    margin: 0 0 30px;
-  }
-    
+    #portfolio .portfolio-item {
+             margin: 0 0 30px;
+    }
 }
+
 
 /* MODAL DESIGN */
 
-.portfolio-modal .modal-content {
-  border-radius: 0;
-  background-clip: border-box;
-    background-color: #222222;
-  -webkit-box-shadow: none;
-  box-shadow: none;
-  border: none;
-  min-height: 100%;
-  padding: 100px 0;
-  text-align: center;
-    color:white;
 
+.portfolio-modal .modal-content {
+        color:white;
+        text-align: center;
+        border: none;
+        border-radius: 0;
+        background-clip: border-box;
+        background-color: #26384C;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+        min-height: 100%;
+        padding: 100px 0;
 }
+
 .portfolio-modal .modal-content h2 {
-  margin: 0;
-  font-size: 3em;
-     font-family: "Chau Philomene One", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-family: "Chau Philomene One", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-size: 3em;
+        margin: 0;
 }
+
 .portfolio-modal .modal-content img {
-  margin-bottom: 30px;
+        margin-bottom: 30px;
 }
+
 .portfolio-modal .modal-content .item-details {
-  margin: 30px 0;
+        margin: 30px 0;
 }
+
 .portfolio-modal .close-modal {
-  position: absolute;
-  width: 75px;
-  height: 75px;
-  background-color: transparent;
-  top: 25px;
-  right: 25px;
-  cursor: pointer;
+        background-color: transparent;
+        position: absolute;
+        width: 75px;
+        height: 75px;
+        top: 25px;
+        right: 25px;
+        cursor: pointer;
 }
+
 .portfolio-modal .close-modal:hover {
-  opacity: 0.3;
+        opacity: 0.3;
 }
+
 .portfolio-modal .close-modal .lr {
-  height: 75px;
-  width: 1px;
-  margin-left: 35px;
-  background-color: #2C3E50;
-  transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  /* IE 9 */
-  -webkit-transform: rotate(45deg);
-  /* Safari and Chrome */
-  z-index: 1051;
+        height: 75px;
+        width: 1px;
+        margin-left: 35px;
+        background-color: #2C3E50;
+        transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        /* IE 9 */
+        -webkit-transform: rotate(45deg);
+        /* Safari and Chrome */
+        z-index: 1051;
 }
+
 .portfolio-modal .close-modal .lr .rl {
-  height: 75px;
-  width: 1px;
-  background-color: #2C3E50;
-  transform: rotate(90deg);
-  -ms-transform: rotate(90deg);
-  /* IE 9 */
-  -webkit-transform: rotate(90deg);
-  /* Safari and Chrome */
-  z-index: 1052;
+        height: 75px;
+        width: 1px;
+        background-color: #2C3E50;
+        transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+        /* IE 9 */
+        -webkit-transform: rotate(90deg);
+        /* Safari and Chrome */
+        z-index: 1052;
 }
+
 .portfolio-modal .modal-backdrop {
-  opacity: 0;
-  display: none;
+        display: none;
+        opacity: 0;
 }
 
 .btn-default {
-    
-    color: white;
-    font-family: "Chau Philomene One", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 16px;
-    background-color: #222;
-    
+        font-family: "Chau Philomene One", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        color: white;
+        font-size: 16px;
+        background-color: #222;
 }
 
-
-
 .carousel-inner > .item > .img {
-  position: absolute;
-  top: 50%;
-  left: 50%;    
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-    
+        position: absolute;
+        top: 50%;
+        left: 50%;    
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
 }
 
 
 /*SKILLS*/
 
+
 #title-skill {
-    
-    font-family: "Chau Philomene One", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-weight: 300;
-    letter-spacing: 1px;
-    font-size: 1.75em;
-    text-transform: uppercase;
+        font-family: "Chau Philomene One", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        color: #1a1a1a;
+        font-weight: 300;
+        letter-spacing: 1px;
+        font-size: 1.85em;
+        text-transform: uppercase;
 }
 
 #skills-text {
-    
-    text-align: center;
-    
+        color: #1a1a1a;
+        font-size: 1.15em;
+        text-align: center;
 }
 
 
 /*A BIT MORE DESIGN*/
 
+
 #outro-text {
-    
-    font-size: 1.75em;
-    text-align: center;
-    
+        font-size: 1.75em;
+        text-align: center;
 }
 
 #areaCV {
-    
-     padding: 50px 0px 50px 0px;
+        padding: 50px 0px 50px 0px;
 }
 
 .btn-CV {
-  color: white;
-    font-family: "Chau Philomene One", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 24px;
-    text-align: center;
-  border: solid 2px white;
-  background: transparent;
-  transition: all 0.3s ease-in-out;
-padding-top: 15px;
-padding-bottom: 15px;
-padding-left: 25px;
-padding-right: 25px;
-text-decoration: none;
-  border-radius: 15px;
-    display: block;
-  position: relative;
-  max-width: 400px;
- margin: 0 auto;
+        display: block;
+        font-family: "Chau Philomene One", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        color: white;
+        font-size: 24px;
+        text-align: center;
+        text-decoration: none;
+        border: solid 2px white;
+        border-radius: 15px;
+        background: transparent;
+        transition: all 0.3s ease-in-out;
+        position: relative;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-left: 25px;
+        padding-right: 25px;
+        margin: 0 auto;
+        max-width: 400px;
 }
 
 .btn-CV:hover,
 .btn-CV:focus,
 .btn-CV:active,
 .btn-CV.active {
-  color: #181612;
-  background: white;
-  border: solid 2px white;
-     text-decoration: none;
+        color: #181612;
+        background: white;
+        border: solid 2px white;
+        text-decoration: none;
 }
 
 @media (min-width: 768px) {
-  .btn-CV {
-    margin: 30px 0 30px 0;
-  }
+    
+    .btn-CV {
+        margin: 30px 0 30px 0;
+    }
 }
 
 
 /*SKIPNAV DESIGN*/
 
+
 #skipnav a {
-  padding: 6px;
-  position: absolute;
-  top: -40px;
-  left: 0px;
-  color: white;
-  border-right: 1px solid white;
-  border-bottom: 1px solid white;
-  border-bottom-right-radius: 8px;
-  background: transparent;
-  transition: top 1s ease-out, background 1s linear;
-  z-index: 2000;
+        color: white;
+        background: transparent;
+        border-right: 1px solid white;
+        border-bottom: 1px solid white;
+        border-bottom-right-radius: 8px;
+        transition: top 1s ease-out, background 1s linear;
+        z-index: 2000;
+        position: absolute;
+        padding: 6px;
+        top: -40px;
+        left: 0px;
 }
+
 #skipnav a:focus {
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  background: #18BC9C;
-  outline: 0;
-  transition: top 0.1s ease-in, background 0.5s linear;
+        background: #18BC9C;
+        outline: 0;
+        transition: top 0.1s ease-in, background 0.5s linear;
+        position: absolute;
+        left: 0px;
+        top: 0px;
 }
-
-
 
 
 /*SCROLL DESIGN*/
 
+
 .scroll-top {
-  position: fixed;
-  right: 2%;
-  bottom: 2%;
-  width: 50px;  
-  height: 50px;
-  z-index: 1049;
+        position: fixed;
+        right: 2%;
+        bottom: 2%;
+        width: 50px;  
+        height: 50px;
+        z-index: 1049;
 }
+
 .scroll-top .btn {
-  font-size: 20px;
-  width: 50px;
-  height: 50px;
-  border-radius: 100%;
-  line-height: 28px;
+        font-size: 20px;
+        width: 50px;
+        height: 50px;
+        border-radius: 100%;
+        line-height: 28px;
 }
 
 
 /* SPACE CAREER DESIGN */
 
 
-
 hr.space-career {
-margin: 25px 0 25 0;
-border-top:0px;
+        margin: 25px 0 25 0;
+        border-top:0px;
 }
 
 hr.space-career:after {
-      content: "\f106";
-  font-family: FontAwesome;
-  display: inline-block;
-  position: relative;
-  top: -0.8em;
-  font-size: 2.5em;
-  padding: 0 0.25em;
-    color: 27231c;
-    
+        display: inline-block;
+        content: "\f106";
+        font-family: FontAwesome;
+        color: #27231c;
+        font-size: 2.5em;
+        position: relative;
+        padding: 0 0.25em;
+        top: -0.8em;
 }
+
 
 /* STAR DESIGN */
 
 
 hr.star-light,
 hr.star-primary {
-  padding: 0;
-  border: none;
-  border-top: solid 5px;
-  text-align: center;
-  max-width: 250px;
-  margin: 25px auto 30px;
-    overflow:visible;
+
+        text-align: center;    
+        border: none;
+        border-top: solid 5px;
+        padding: 0;
+        max-width: 250px;
+        margin: 25px auto 30px;
+        overflow:visible;
 }
+
 hr.star-light:after,
 hr.star-primary:after {
-  content: "\f005";
-  font-family: FontAwesome;
-  display: inline-block;
-  position: relative;
-  top: -0.8em;
-  font-size: 2em;
-  padding: 0 0.25em;
+        display: inline-block;
+        content: "\f005";
+        font-family: FontAwesome;
+        font-size: 2em;
+        position: relative;
+        top: -0.8em;
+        padding: 0 0.25em;
 }
+
 hr.star-light {
-  border-color: white;
+        border-color: #fffbd7;
 }
-hr.star-light:after {
-  background-color: #222222;
-  color: white;
-}
+
 hr.star-primary {
-  border-color: #2C3E50;
+        border-color: #26384C;
 }
+
+
+hr.star-light:after {
+        color: #fffbd7;
+        background-color: #26384C;
+}
+
 hr.star-primary:after {
-  background-color: white;
-  color: #2C3E50;
+        color: #2C3E50;
+        background-color: #fffbd7;
+}
+
+
+hr.star-light.port {
+        border-color: #27231c;
 }
 
 hr.star-primary.port:after {
-  content: "\f042";
+        content: "\f042";
 }
 
-hr.star-light.port {
-  border-color: #27231c;
-}
 
 
 /*LOGO SKILLS DESIGN*/
 
+
 hr.star-light.skills {
-  border-color: #222222;
+        border-color: #1e1f34;
 }
 
 hr.star-light.skills:after {
-  background-color: #888888;
-  color: #222222;
+        color: #1e1f34;
+        background-color: #58aeab;
 }
 
 hr.star-light.skills.design:after {
-    content:"\f040";
+        content:"\f040";
 }
 
 hr.star-light.skills.design.port:after {
-    content:"\f040";
+        content:"\f040";
 }
 
 hr.star-light.skills.team:after {
-    content:"\f0c0";
+        content:"\f0c0";
 }
 
 hr.star-light.skills.team.port:after {
-    content:"\f0c0";
+        content:"\f0c0";
 }
 
 hr.star-light.skills.dev:after {
-   content:"\f013";
+        content:"\f013";
 }
 
 hr.star-light.skills.dev.port:after {
-content:"\f013";
+        content:"\f013";
 }
 
 hr.star-light.skills.soft:after {
-    content:"\f040";
+        content:"\f121";
 }
 
 hr.star-light.skills.soft.port:after {
-    content:"\f040";
+        content:"\f121";
 }
 
 hr.star-light.skills.hobby:after {
- content:"\f004";
+        content:"\f004";
 }
 
 hr.star-light.skills.hobby.port:after {
- content:"\f004";
+        content:"\f004";
 }
 
 
 /*HEADER DESIGN*/
 
 
-
-
-header {
-  text-align: center;
-  background: #222222;
-  color: white;
-    
-}
-
-
 header .container {
-  padding-top: 150px;
-  padding-bottom: 50px;
+        padding-top: 150px;
+        padding-bottom: 50px;
 }
 
 
 header img {
-  display: block;
-  margin: 0 auto 20px;
+        display: block;
+        margin: 0 auto 20px;
 }
 
 header .intro-text .name {
-  display: block;
-  font-family: "Chau Philomene One", "Helvetica Neue", Helvetica, Arial, sans-serif;
-           text-transform: uppercase;
-    font-size: 2.50em;
+        display: block;
+        font-family: "Chau Philomene One", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-size: 2.50em;
+        text-transform: uppercase;
 }
 
 header .intro-text .slimshady {
-    font-size: 2.0em;
-  }
-    
-  header .intro-text .moto {
-      font-family: "Chau Philomene One", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  text-transform: uppercase;
+        font-size: 2.0em;
+}
 
-    font-size: 2.50em;
-  }
+header .intro-text .moto {
+        font-family: "Chau Philomene One", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-size: 2.50em;
+        text-transform: uppercase;
+}
 
 #intro-p {
-     text-align: center;
-    font-size: 1.55em;
-    
+        font-size: 1.55em;
+        text-align: center;
 }
 
 @media (min-width: 768px) {
-header .container {
-  padding-top: 150px;
-  padding-bottom: 50px;
-}
-    
-header .intro-text .slimshady {
-    font-size: 1.50em;
-  }
-  header .intro-text .name {
-    font-size: 1.75em;
-  }
-    
-  header .intro-text .moto {
-    font-size: 1.75em;
-  }
-    
+    header .container {
+            padding-top: 150px;
+            padding-bottom: 50px;
+    }
+
+    header .intro-text .slimshady {
+            font-size: 1.50em;
+    }
+    header .intro-text .name {
+            font-size: 1.75em;
+    }
+
+    header .intro-text .moto {
+            font-size: 1.75em;
+    }
+
     #intro-p {
-     text-align: center;
-    font-size: 1.55em;
-    
+            font-size: 1.55em;
+            text-align: center;
+    }
 }
-}
+
 
 /*NAV DESIGN*/
 
+
 .navbar-custom {
-  background: #1a1a1a;
-  font-family: "Chau Philomene One", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  text-transform: uppercase;
-  font-weight: 300;
-    font-size: 1.55em;
-    border: none;
-    width: auto;
+        font-family: "Chau Philomene One", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        text-transform: uppercase;
+        font-weight: 300;
+        font-size: 1.55em;
+        border: none;
+        background: #1e1f34;
+        width: auto;
 }
 
 .navbar-custom .navbar-brand {
-  color: #fbefdb;
+        color: #1b3e51;
 }
+
 .navbar-custom .navbar-brand:hover,
 .navbar-custom .navbar-brand:focus,
 .navbar-custom .navbar-brand:active,
 .navbar-custom .navbar-brand.active {
-  color: #fbefdb;
-    
+        color: #1b3e51;
+
 }
 
 .nav navbar-nav navbar-right {
-    text-align: center;
+        text-align: center;
 }
 
 .navbar-custom .navbar-nav {
-  letter-spacing: 2px;
+        letter-spacing: 2px;
 }
+
 .navbar-custom .navbar-nav li a {
-  color: gray;
-    text-align: center;
+        color: #fffbd7;
+        text-align: center;
 }
+
 .navbar-custom .navbar-nav li a:hover {
-  color: white;
+        color: white;
 }
+
 .navbar-custom .navbar-nav li a:focus,
 .navbar-custom .navbar-nav li a:active {
-  color: white;
+        color: white;
 }
+
 .navbar-custom .navbar-nav li.active a {
-  color: white;
-  background: #888888;
-border-radius: 10px;
+        color: white;
+        background: #58aeab;
+        border-radius: 10px;
 
 }
+
 .navbar-custom .navbar-nav li.active a:hover,
 .navbar-custom .navbar-nav li.active a:focus,
 .navbar-custom .navbar-nav li.active a:active {
-  color: white;
-  background: #888888;
+        color: white;
+        background: #58aeab;
 }
 
 .navbar-custom .navbar-toggle {
-  color: white;
-  text-transform: uppercase;
-  font-size: 10px;
-  border-color: white;
+        font-size: 10px;
+        text-transform: uppercase;
+        color: #fff7ba;
+        border-color: white;
 }
+
 .navbar-custom .navbar-toggle:hover,
 .navbar-custom .navbar-toggle:focus {
-  background-color: #18BC9C;
-  color: white;
-  border-color: #18BC9C;
+        color: white;
+        border-color: #58aeab;
+        background-color: #58aeab;
 }
 
 .navbar-custom.affix {
-    padding: 10px 0;
-  }
-  .navbar-custom.affix .navbar-brand {
-    font-size: 1.5em;
-  }
+        padding: 10px 0;
+}
+
+.navbar-custom.affix .navbar-brand {
+        font-size: 1.5em;
+}
 
 
 @media (min-width: 768px) {
-    
-  .navbar-custom {
-    padding: 25px 0;
-    -webkit-transition: padding 0.3s;
-    -moz-transition: padding 0.3s;
-    transition: padding 0.3s;
+    .navbar-custom {
+            padding: 25px 0;
+            -webkit-transition: padding 0.3s;
+            -moz-transition: padding 0.3s;
+            transition: padding 0.3s;
+    }
+    .navbar-custom .navbar-brand {
+            font-size: 2em;
+            -webkit-transition: all 0.3s;
+            -moz-transition: all 0.3s;
+            transition: all 0.3s;
+    }
+    .navbar-custom.affix {
+            padding: 10px 0;
+    }
+    .navbar-custom.affix .navbar-brand {
+            font-size: 1.5em;
+    }
 
-  }
-  .navbar-custom .navbar-brand {
-    font-size: 2em;
-    -webkit-transition: all 0.3s;
-    -moz-transition: all 0.3s;
-    transition: all 0.3s;
-  }
-  .navbar-custom.affix {
-    padding: 10px 0;
-  }
-  .navbar-custom.affix .navbar-brand {
-    font-size: 1.5em;
-  }
-    
     .navbar-collapse.collapse {
-    height: auto!important;
-    overflow: visible!important;
-    display: flex!important;
-    justify-content: center;
+            height: auto!important;
+            overflow: visible!important;
+            display: flex!important;
+            justify-content: center;
+    }
 }
 
-    
-}
 
 /* BUTTON & CO DESIGN*/
 
+
 .btn-outline {
-  color: white;
-    font-family: "Chau Philomene One", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 24px;
-  border: solid 2px white;
-  background: transparent;
-  transition: all 0.3s ease-in-out;
-  margin: 5px;
-padding: 10px;
-    
+        font-family: "Chau Philomene One", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-size: 24px;
+        color: white;
+        border: solid 2px white;
+        background: transparent;
+        transition: all 0.3s ease-in-out;
+        margin: 5px;
+        padding: 10px;
+
 }
+
 .btn-outline:hover,
 .btn-outline:focus,
 .btn-outline:active,
 .btn-outline.active {
-  color: #181612;
-  background: white;
-  border: solid 2px white;
+        color: #181612;
+        background: white;
+        border: solid 2px white;
 }
 
 .dropdown-menu{
-    color: #fbefdb;
-  background:  #181612;
-    text-align: center;
-    width: auto;
+        color: #fbefdb;
+        background:  #181612;
+        text-align: center;
+        width: auto;
 }
 
 .dropdown-menu li a:hover{
-    color: #181612;    
+        color: #181612;    
 }
 
+
 /*FOOTER DESIGN*/
+
+
 footer {
-  color: white;
+        color: white;
 }
+
 footer .footer-below {
-  padding: 25px 0;
-  background-color: #1a1a1a;
-    text-align: center;
+        background-color: #1e1f34;
+        text-align: center;
+        padding: 25px 0;
 }
