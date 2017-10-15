@@ -1,6 +1,5 @@
 body {
         font-family: 'Overlock', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-        font-weight: 400;
         font-size: 1.85em; 
         overflow-x: hidden;
 }
@@ -12,6 +11,7 @@ body {
 
 #bword {
         font-family: "Chau Philomene One", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        color: white;
         font-weight: 300;
         letter-spacing: 1px;
         text-transform: uppercase;
@@ -19,6 +19,7 @@ body {
 
 #mail {
         font-family: "Chau Philomene One", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        color: white;
         font-weight: 300;
         letter-spacing: 1px;
 }
@@ -57,7 +58,7 @@ header {
 }
 
 #info {
-        color: white;
+        color: #fffce2;
         background: #26384C; 
         padding: 30px 0px 30px 0px;  
 }
@@ -104,48 +105,47 @@ header {
 
 #custom-title {
         font-family: "Chau Philomene One", "Helvetica Neue", Helvetica, Arial, sans-serif;
-        color: white;
+        color: #fffce2;
         font-size: 1.50em;
 }
 
 #custom-link {
         text-decoration: none;
-        background: #222222;
+        background: #1e1f34;
         border-radius: 15px;
 }
 
-#custom-link:hover  {
-        background: #d1d1d1;
+#custom-link:hover {
+         background: #58aeab;
 }
 
-#custom-link:hover * {
-        color:#1a1a1a;
-        background: #d1d1d1;
+#custom-link:hover *{
+        color:white;
 }
-
-#custom-link:active  {
-        background: #fff;
-}
-
-#custom-link:active * {
-        color:#3fc4ff;
-        background: #fff;
-}
-
 
 #custom-panel-collapse {
         border: 0px transparent;
 }
 
 #custom-panel-body {
-        color:#1a1a1a;  
-        background: white;
+        color: #fffce2;
+        font-size: 1.2em;        
+        font-weight: 200;
+        background: #26384C;
         border: 0px transparent;
         border-radius: 15px;
 }
 
+#custom-panel-body b {
+        color: white;
+        font-size: 1.1em;  
 
-.panel.panel-custom {    
+}
+
+
+
+.panel.panel-custom {   
+        background: #26384C;
         -webkit-box-shadow: 0 0px 0px rgba(0,0,0,0);
         border: 0px transparent;
         border-radius: 15px;
@@ -184,12 +184,12 @@ header {
 
 #portfolio .portfolio-item .portfolio-link .caption .caption-content {
         color: white;
-        background-color: #58aeab;
+        background-color: #1e1f34;
         position: absolute;
         width: 100%;
-        height: 40px;
+        height: 25%;
         top: 50%;
-        margin-top: -22px;
+        margin-top: -10%;
 }
 
 #portfolio .portfolio-item .portfolio-link .caption .caption-content i {
@@ -199,9 +199,10 @@ header {
 #portfolio .portfolio-item .portfolio-link .caption .caption-content h3,
 #portfolio .portfolio-item .portfolio-link .caption .caption-content h4 {
         font-family: "Chau Philomene One", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 1.85em;
         text-align:center;
         margin: 0;
-        padding-top: 7px;
+        padding-top: 4%;
 }
 
 #portfolio  {
@@ -219,7 +220,8 @@ header {
 
 
 .portfolio-modal .modal-content {
-        color:white;
+        color:#fffce2;
+    font-size: 1.15em;
         text-align: center;
         border: none;
         border-radius: 0;
@@ -233,7 +235,8 @@ header {
 
 .portfolio-modal .modal-content h2 {
         font-family: "Chau Philomene One", "Helvetica Neue", Helvetica, Arial, sans-serif;
-        font-size: 3em;
+        color:white;
+        font-size: 2.5em;
         margin: 0;
 }
 
@@ -242,47 +245,12 @@ header {
 }
 
 .portfolio-modal .modal-content .item-details {
-        margin: 30px 0;
+        font-family: "Chau Philomene One", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        color:white;
+        font-size: 1.26em;
+        margin: 25px 0;
 }
 
-.portfolio-modal .close-modal {
-        background-color: transparent;
-        position: absolute;
-        width: 75px;
-        height: 75px;
-        top: 25px;
-        right: 25px;
-        cursor: pointer;
-}
-
-.portfolio-modal .close-modal:hover {
-        opacity: 0.3;
-}
-
-.portfolio-modal .close-modal .lr {
-        height: 75px;
-        width: 1px;
-        margin-left: 35px;
-        background-color: #2C3E50;
-        transform: rotate(45deg);
-        -ms-transform: rotate(45deg);
-        /* IE 9 */
-        -webkit-transform: rotate(45deg);
-        /* Safari and Chrome */
-        z-index: 1051;
-}
-
-.portfolio-modal .close-modal .lr .rl {
-        height: 75px;
-        width: 1px;
-        background-color: #2C3E50;
-        transform: rotate(90deg);
-        -ms-transform: rotate(90deg);
-        /* IE 9 */
-        -webkit-transform: rotate(90deg);
-        /* Safari and Chrome */
-        z-index: 1052;
-}
 
 .portfolio-modal .modal-backdrop {
         display: none;
@@ -291,9 +259,20 @@ header {
 
 .btn-default {
         font-family: "Chau Philomene One", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        color: #58aeab;
+        font-size: 1.1em;
+        border: solid 2px #58aeab;
+        background-color: #26384C;
+}
+
+.btn-default:hover {
         color: white;
-        font-size: 16px;
-        background-color: #222;
+        background-color: #58aeab;
+        border: solid 2px #58aeab;
+}
+
+.carousel.slide{
+        margin: 50px 0 10px 0;
 }
 
 .carousel-inner > .item > .img {
@@ -311,7 +290,7 @@ header {
 
 #title-skill {
         font-family: "Chau Philomene One", "Helvetica Neue", Helvetica, Arial, sans-serif;
-        color: #1a1a1a;
+        color: white;
         font-weight: 300;
         letter-spacing: 1px;
         font-size: 1.85em;
@@ -319,9 +298,20 @@ header {
 }
 
 #skills-text {
-        color: #1a1a1a;
+        color: white;
         font-size: 1.15em;
+        font-weight: bold;
         text-align: center;
+
+}
+
+hr.title-breaker{
+        display: block;
+        height: 5px;
+        border: 0;
+        border-top: 3px solid white;
+        margin: 1em 0;
+        padding: 0;
 }
 
 
@@ -423,6 +413,8 @@ header {
 }
 
 
+
+
 /* SPACE CAREER DESIGN */
 
 
@@ -470,7 +462,7 @@ hr.star-primary:after {
 }
 
 hr.star-light {
-        border-color: #fffbd7;
+        border-color: #58aeab;
 }
 
 hr.star-primary {
@@ -479,7 +471,7 @@ hr.star-primary {
 
 
 hr.star-light:after {
-        color: #fffbd7;
+        color: #58aeab;
         background-color: #26384C;
 }
 
@@ -569,7 +561,8 @@ header img {
 header .intro-text .name {
         display: block;
         font-family: "Chau Philomene One", "Helvetica Neue", Helvetica, Arial, sans-serif;
-        font-size: 2.50em;
+        color: white;
+        font-size: 2.75em;
         text-transform: uppercase;
 }
 
@@ -579,36 +572,17 @@ header .intro-text .slimshady {
 
 header .intro-text .moto {
         font-family: "Chau Philomene One", "Helvetica Neue", Helvetica, Arial, sans-serif;
-        font-size: 2.50em;
+        color: white;
+        font-size: 2.75em;
         text-transform: uppercase;
 }
 
 #intro-p {
-        font-size: 1.55em;
+        font-size: 1.85em;
         text-align: center;
 }
 
 @media (min-width: 768px) {
-    header .container {
-            padding-top: 150px;
-            padding-bottom: 50px;
-    }
-
-    header .intro-text .slimshady {
-            font-size: 1.50em;
-    }
-    header .intro-text .name {
-            font-size: 1.75em;
-    }
-
-    header .intro-text .moto {
-            font-size: 1.75em;
-    }
-
-    #intro-p {
-            font-size: 1.55em;
-            text-align: center;
-    }
 }
 
 
