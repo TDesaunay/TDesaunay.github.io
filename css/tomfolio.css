@@ -709,6 +709,7 @@ header .intro-text .moto {
             overflow: visible!important;
             display: flex!important;
             justify-content: center;
+            padding-top: 10px;
     }
 }
 
