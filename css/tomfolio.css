@@ -272,21 +272,30 @@ header {
 }
 
 .carousel.slide{
-        margin: 50px 0 10px 0;
+        margin: 30px 0 30px 0;
 }
 
-.carousel-inner > .item > .img {
-        position: absolute;
-        top: 50%;
-        left: 50%;    
-        -webkit-transform: translate(-50%, -50%);
-        -ms-transform: translate(-50%, -50%);
-        transform: translate(-50%, -50%);
+.right.carousel-control,
+.left.carousel-control {
+        background-image: none;
 }
+
+.carousel-inner>.item {
+    
+}
+
+.carousel-inner>.item>.img{
+
+}
+
 
 
 /*SKILLS*/
 
+.col-sm-4 {
+    padding-right: 30px;
+    padding-left: 30px;
+}
 
 #title-skill {
         font-family: "Chau Philomene One", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -297,8 +306,12 @@ header {
         text-transform: uppercase;
 }
 
+#title-skill i{
+        color: #21D5CF;  
+}
+
 #skills-text {
-        color: white;
+        color: #fffce2;
         font-size: 1.15em;
         font-weight: bold;
         text-align: center;
@@ -307,11 +320,12 @@ header {
 
 hr.title-breaker{
         display: block;
-        height: 5px;
+        height: 5px; 
+        width: 60%;
         border: 0;
-        border-top: 3px solid white;
-        margin: 1em 0;
-        padding: 0;
+        border-top:5px double #1e1f34;
+        margin: auto;
+        padding: 5px;
 }
 
 
